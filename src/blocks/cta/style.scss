@@ -1,0 +1,62 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+
+.wp-block-aff-cta {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	border: 1px solid #c6c6c6;
+	justify-content: space-between;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 0 0 10px 10px;
+	border-top: 8px solid #008053;
+
+	.photo {
+		width: 25%;
+		text-align: center;
+	}
+
+	.content {
+		width: 70%;
+	}
+
+	.title,
+	.subtitle,
+	.description {
+		margin: 0 0 10px !important;
+		padding: 0 !important;
+	}
+
+	.cta-btn {
+		margin-top: 20px;
+		display: inline-block;
+		background: #008053;
+		color: #fff;
+		padding: 10px 30px;
+		border-radius: 10px;
+		transition: 0.3s;
+		font-weight: 700;
+		&:hover {
+			background: #045d38;
+			color: #fff;
+		}
+	}
+}
+
+// mobile view
+@media screen and (max-width: 767px) {
+	.wp-block-aff-cta {
+		flex-direction: column;
+		.photo,
+		.content {
+			width: 100%;
+			text-align: center;
+		}
+
+		.photo {
+			margin-bottom: 15px;
+		}
+	}
+}

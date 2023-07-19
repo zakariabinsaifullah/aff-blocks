@@ -1,0 +1,16 @@
+{
+  "apiVersion": 2,
+  "name": "aff/advice",
+  "version": "0.1.0",
+  "title": "Expert Advice",
+  "category": "aff-blocks",
+  "description": "Testimonial from an expert",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "aff-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

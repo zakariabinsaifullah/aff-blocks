@@ -1,0 +1,34 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+.wp-block-aff-steps {
+	position: relative;
+	padding-left: 50px;
+	&:before {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 1px;
+		height: calc(100% - 50px);
+		background: #c6c6c6;
+		content: "";
+	}
+
+	.step {
+		position: absolute;
+		top: 14px;
+		left: 0;
+		width: 36px;
+		height: 36px;
+		background: #d9d9d9;
+		margin-left: -68px;
+		text-align: center;
+		line-height: 36px;
+		border-radius: 10px;
+		border: 1px solid #c6c6c6;
+	}
+
+	.wp-block-aff-step + .wp-block-aff-step {
+		margin-top: 30px;
+	}
+}

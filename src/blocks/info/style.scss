@@ -1,0 +1,31 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+
+.wp-block-aff-info {
+	border: 1px solid #c6c6c6;
+	padding: 30px 20px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	position: relative;
+	background: #fff;
+
+	.description {
+		margin: 0;
+	}
+
+	.brand-logo {
+		position: absolute;
+		top: 0;
+		left: 25px;
+		margin-top: -20px;
+		line-height: 1;
+		height: 30px;
+		background: #fff;
+		padding: 5px 0;
+	}
+
+	.brand-logo svg {
+		height: 30px;
+	}
+}

@@ -1,0 +1,46 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+
+.wp-block-aff-advice {
+	border: 1px solid #c6c6c6;
+	padding: 30px 20px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	position: relative;
+	background: #fff;
+
+	.description {
+		margin: 0 0 15px;
+	}
+
+	.footer-flex {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 10px;
+		.photo img {
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+		}
+		.name {
+			margin: 0 !important;
+		}
+	}
+
+	.brand-logo {
+		position: absolute;
+		top: 0;
+		left: 25px;
+		margin-top: -20px;
+		line-height: 1;
+		height: 30px;
+		background: #fff;
+		padding: 5px 10px;
+	}
+
+	.brand-logo svg {
+		height: 30px;
+	}
+}

@@ -1,0 +1,24 @@
+/*
+* Style Works for Editor Only
+*/
+.aff-tabs {
+	.components-tab-panel__tabs {
+		width: 100%;
+		margin-bottom: 10px;
+		button {
+			width: 100%;
+			justify-content: center;
+			border-bottom: 1px solid #ccc;
+			&.active-tab {
+				border-bottom: 1px solid #0f3cc8;
+				color: #0f3cc8;
+			}
+		}
+	}
+}
+
+.aff-link-control {
+	width: 300px;
+	padding: 10px;
+	box-sizing: border-box;
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion": 2,
+  "name": "aff/step",
+  "version": "0.1.0",
+  "title": "Single Step",
+  "category": "aff-blocks",
+  "description": "Child for Steps Block.",
+  "parent": [
+    "aff/steps"
+  ],
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "aff-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,75 @@
+/*
+* Style Works for both Editor and Frontend
+*/
+
+.wp-block-aff-step {
+	border: 1px solid #c6c6c6;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	transition: 0.3s;
+	background-color: #fff;
+	position: relative;
+	&:hover {
+		background-color: #008053;
+		.title,
+		.description,
+		.step {
+			color: #fff;
+		}
+
+		.step {
+			background-color: #008053;
+		}
+
+		.cta-btn {
+			background-color: #fff;
+			color: #008053;
+		}
+	}
+
+	.title,
+	.subtitle,
+	.description {
+		margin: 0 0 15px !important;
+		padding: 0 !important;
+	}
+
+	.subtitle {
+		background: #cff2e6;
+		display: inline-block;
+		padding: 5px 10px !important;
+		color: #008053;
+		min-width: 50% !important;
+	}
+
+	.cta-btn {
+		margin-bottom: 15px;
+		display: inline-block;
+		background: #008053;
+		color: #fff;
+		padding: 10px 30px;
+		border-radius: 10px;
+		transition: 0.3s;
+		font-weight: 700;
+	}
+}
+
+// mobile view
+@media screen and (max-width: 767px) {
+	.wp-block-aff-step {
+		.subtitle {
+			width: 100% !important;
+		}
+
+		.pair-content {
+			display: flex;
+			flex-direction: column-reverse;
+			align-items: center;
+		}
+
+		.sub-title-container {
+			width: 100%;
+		}
+	}
+}
